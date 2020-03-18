@@ -1,4 +1,3 @@
-package com.timbuchaka;
 
 /**
  * This is just the song class with the song names and its duration
