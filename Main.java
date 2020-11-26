@@ -122,43 +122,5 @@ public class Main {
         }
 
     }
-/**
- * This is the mistake that I did of creating new playlist everytime I was calling the function and it took me quite an amount of time
- * to figure out the mistake. I am just keeping it to remind me the major mistakes that could possibly happen next time I am doing the similar projects
- */
-//    public static void play(LinkedList<Song> playlist){
-//        ListIterator<Song> listIterator= playlist.listIterator();
-//        if(playlist.size()==0){
-//            System.out.println("No songs in the playlist");
-//            return;
-//        } else {
-//            System.out.println("Now playing " + listIterator.next().toString());
-//        }
-//    }
-//    public static void play_next(LinkedList<Song> playlist){
-//        ListIterator<Song> listIterator= playlist.listIterator();
-//        if(listIterator.hasNext()){
-//            listIterator.next();
-//            System.out.println("Next playing " + listIterator.next().toString());
-//
-//        }
-//        else{
-//            System.out.println("End of the list");
-//        }
-//    }
-//    public static void play_previous(LinkedList<Song> playlist){
-//        ListIterator<Song> listIterator= playlist.listIterator();
-//        if(listIterator.hasPrevious()){
-//            listIterator.previous();
-//            System.out.println("Now playing " + listIterator.next().toString());
-//        }
-//        else{
-//            System.out.println("Starting of the list");
-//        }
-//    }
-//    public static void quit(){
-//        System.exit(0);
-//    }
-
 
 }
